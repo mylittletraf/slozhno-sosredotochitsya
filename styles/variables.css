@@ -1,4 +1,25 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+    --header-bg-image: url(../images/cover-image-dark.png);
+    --header-bg-color: #000028;
+    --header-title-color: #DB00FF;
+    --header-title-shadow-color: #FF0070;
+    --header-menu-button-color: #FF0070;
+    --header-menu-button-active-outline: #FF0070;
+
+    --subtitle-bg-color: #FF0070;
+    --subtitle-text-color: #000028;
+
+    --decorated-zone-border-color: #FF0070;
+    --indicator-text-color: #FF0070;
+    --indicator-dot-bg-color: #FF0070;
+    --indicator-dot-shadow: 0 0 4px 2px #FF0070;
+
+    --main-section-title-color: #FF0070;
+    --main-section-subtitle-bg-color: #FF0070;
+    --main-section-subtitle-text-color: #000028;
+    --main-article-item-color: #F1B2CE;
+
+    --footer-title-color: #DB00FF;
+    --footer-title-shadow-color: #FF0070;
+}
+
