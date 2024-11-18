@@ -1,28 +1,27 @@
 :root {
-    --global-font: 'IBM Plex Mono';
+  --global-font: "IBM Plex Mono";
 
-    --main-bg-color: #000028;
+  --main-bg-color: #000028;
 
-    --header-bg-image: url(../images/cover-image-dark.png);
-    --header-title-color: #DB00FF;
-    --header-title-shadow-color: #FF0070;
-    --header-menu-button-color: #FF0070;
-    --header-menu-button-active-outline: #FF0070;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --header-title-color: #db00ff;
+  --header-title-shadow-color: #ff0070;
+  --header-menu-button-color: #ff0070;
+  --header-menu-button-active-outline: #ff0070;
 
-    --subtitle-bg-color: #FF0070;
-    --subtitle-text-color: #000028;
+  --subtitle-bg-color: #ff0070;
+  --subtitle-text-color: #000028;
 
-    --decorated-zone-border-color: #FF0070;
-    --indicator-text-color: #FF0070;
-    --indicator-dot-bg-color: #FF0070;
-    --indicator-dot-shadow-color: #FF0070;
+  --decorated-zone-border-color: #ff0070;
+  --indicator-text-color: #ff0070;
+  --indicator-dot-bg-color: #ff0070;
+  --indicator-dot-shadow-color: #ff0070;
 
-    --main-section-title-color: #FF0070;
-    --main-section-subtitle-bg-color: #FF0070;
-    --main-section-subtitle-text-color: #000028;
-    --main-article-item-color: #F1B2CE;
+  --main-section-title-color: #ff0070;
+  --main-section-subtitle-bg-color: #ff0070;
+  --main-section-subtitle-text-color: #000028;
+  --main-article-item-color: #f1b2ce;
 
-    --footer-title-color: #DB00FF;
-    --footer-title-shadow-color: #FF0070;
+  --footer-title-color: #db00ff;
+  --footer-title-shadow-color: #ff0070;
 }
-

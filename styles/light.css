@@ -4,34 +4,69 @@
   переключая тему
 */
 
-.page.theme_light {
-    --global-font: 'IBM Plex Mono';
+@media (prefers-color-scheme: light) {
 
-    --main-bg-color: #FFF1F7;
+  :root {
+    --global-font: "IBM Plex Mono";
+
+    --main-bg-color: #fff1f7;
 
     --header-bg-image: url(../images/cover-image-light.png);
-    --header-title-color: #FFC2E6;
-    --header-title-shadow-color: #FF0070;
+    --header-title-color: #ffc2e6;
+    --header-title-shadow-color: #ff0070;
     --header-menu-button-color: #353430;
     --header-menu-button-active-outline: #353430;
 
-    --subtitle-bg-color: #FF8DCB;
+    --subtitle-bg-color: #ff8dcb;
     --subtitle-text-color: #353430;
 
     --decorated-zone-border-color: #353430;
-    --indicator-text-color: #FF0070;
-    --indicator-dot-bg-color: #FF0070;
-    --indicator-dot-shadow-color: #FF0070;
+    --indicator-text-color: #ff0070;
+    --indicator-dot-bg-color: #ff0070;
+    --indicator-dot-shadow-color: #ff0070;
 
     --main-section-title-color: #353430;
-    --main-section-subtitle-bg-color: #FF8DCB;
+    --main-section-subtitle-bg-color: #ff8dcb;
     --main-section-subtitle-text-color: #353430;
     --main-article-item-color: #353430;
 
-    --footer-title-color: #FFC2E6;
-    --footer-title-shadow-color: #FF0070;
+    --footer-title-color: #ffc2e6;
+    --footer-title-shadow-color: #ff0070;
+  }
+
+  .header_decorated-indicator {
+    display: none;
+  }
 }
 
-.theme_light .header_decorated-indicator {
-    display: none;
+.page.theme_light {
+  --global-font: "IBM Plex Mono";
+
+  --main-bg-color: #fff1f7;
+
+  --header-bg-image: url(../images/cover-image-light.png);
+  --header-title-color: #ffc2e6;
+  --header-title-shadow-color: #ff0070;
+  --header-menu-button-color: #353430;
+  --header-menu-button-active-outline: #353430;
+
+  --subtitle-bg-color: #ff8dcb;
+  --subtitle-text-color: #353430;
+
+  --decorated-zone-border-color: #353430;
+  --indicator-text-color: #ff0070;
+  --indicator-dot-bg-color: #ff0070;
+  --indicator-dot-shadow-color: #ff0070;
+
+  --main-section-title-color: #353430;
+  --main-section-subtitle-bg-color: #ff8dcb;
+  --main-section-subtitle-text-color: #353430;
+  --main-article-item-color: #353430;
+
+  --footer-title-color: #ffc2e6;
+  --footer-title-shadow-color: #ff0070;
+}
+
+.page.theme_light .header_decorated-indicator {
+  display: none;
 }
