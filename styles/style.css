@@ -3,17 +3,16 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--main-bg-color);
-  background-image: var(--header-bg-image);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .header {
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
+  background-image: var(--header-bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   padding: 10vh 1.4993vh;
 }
@@ -267,10 +266,6 @@
   }
 }
 
-.bold-text {
-  font-weight: 700;
-}
-
 .main__section {
   display: grid;
   gap: 21px;
@@ -314,11 +309,15 @@
 
 .main__section__content-subtitle {
   font-family: "IBM Plex Mono", monospace;
-  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   color: var(--main-section-subtitle-text-color);
   background-color: var(--main-section-subtitle-bg-color);
+}
+
+.bold-text {
+  font-weight: bold;
 }
 
 .main__section__content-article-item-content {
@@ -331,7 +330,7 @@
 
 .main__section__content-article-list {
   display: grid;
-  gap: 20px;
+  gap: 19px;
   grid-template-rows: minmax(min-content, max-content);
 }
 
@@ -342,7 +341,7 @@
 }
 
 .cards-section {
-  gap: 10px;
+  gap: 9px;
 }
 
 @media (width >= 768px) {
