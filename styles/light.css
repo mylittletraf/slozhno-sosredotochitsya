@@ -28,6 +28,9 @@
     --main-section-title-color: #353430;
     --main-section-subtitle-bg-color: #ff8dcb;
     --main-section-subtitle-text-color: #353430;
+    --main-section-link-color: #353430;
+    --main-section-link-shadow-color: #ff0070;
+    --main-section-link-outline-color: #353430;
     --main-article-item-color: #353430;
 
     --footer-title-color: #ffc2e6;
@@ -61,6 +64,9 @@
   --main-section-title-color: #353430;
   --main-section-subtitle-bg-color: #ff8dcb;
   --main-section-subtitle-text-color: #353430;
+  --main-section-link-color: #353430;
+  --main-section-link-shadow-color: #ff0070;
+  --main-section-link-outline-color: #353430;
   --main-article-item-color: #353430;
 
   --footer-title-color: #ffc2e6;

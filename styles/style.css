@@ -82,6 +82,15 @@
   font-family: var(--global-font), monospace;
 }
 
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--header-menu-button-active-outline);
+}
+
+.header__theme-menu-button:focus-visible {
+  outline: 0;
+  border-bottom: 1px solid var(--header-menu-button-active-outline);
+}
+
 .header__theme-menu-button_active {
   outline: 1px solid var(--header-menu-button-active-outline);
 }
@@ -336,6 +345,22 @@
   display: flex;
   flex-direction: column;
   row-gap: 15px;
+}
+
+.main__section__content-link {
+  text-decoration-line: none;
+  color: var(--main-section-link-color);
+  text-shadow: 2px 2px var(--main-section-link-shadow-color);
+}
+
+.main__section__content-link:hover {
+  text-decoration: underline;
+  outline: 1px var(--main-section-link-color);
+  cursor: pointer;
+}
+
+.main__section__content-link:focus-visible {
+  outline: 1px var(--main-section-link-outline-color);
 }
 
 .cards-section {
