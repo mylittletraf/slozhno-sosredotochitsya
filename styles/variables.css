@@ -7,7 +7,8 @@
   --header-title-color: #db00ff;
   --header-title-shadow-color: #ff0070;
   --header-menu-button-color: #ff0070;
-  --header-menu-button-active-outline: #ff0070;
+  --header-menu-button-hover-color: rgba(255, 0, 112, 0.4);
+  --header-menu-button-active-outline: #FF0070;
 
   --subtitle-bg-color: #ff0070;
   --subtitle-text-color: #000028;

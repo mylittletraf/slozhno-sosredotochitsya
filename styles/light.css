@@ -7,14 +7,13 @@
 @media (prefers-color-scheme: light) {
 
   :root {
-    --global-font: "IBM Plex Mono";
-
     --main-bg-color: #fff1f7;
     --main-bg-image: url(../images/cover-image-light.png);
 
     --header-title-color: #ffc2e6;
     --header-title-shadow-color: #ff0070;
     --header-menu-button-color: #353430;
+    --header-menu-button-hover-color: rgba(50, 49, 45, 0.4);
     --header-menu-button-active-outline: #353430;
 
     --subtitle-bg-color: #ff8dcb;
@@ -43,14 +42,13 @@
 }
 
 .page.theme_light {
-  --global-font: "IBM Plex Mono";
-
   --main-bg-color: #fff1f7;
   --main-bg-image: url(../images/cover-image-light.png);
 
   --header-title-color: #ffc2e6;
   --header-title-shadow-color: #ff0070;
   --header-menu-button-color: #353430;
+  --header-menu-button-hover-color: rgba(50, 49, 45, 0.4);
   --header-menu-button-active-outline: #353430;
 
   --subtitle-bg-color: #ff8dcb;
