@@ -1,18 +1,16 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--main-bg-color);
+  background-image: var(--main-bg-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  background-image: var(--header-bg-image);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   padding: 10vh 1.4993vh;
 }
