@@ -3,16 +3,17 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--main-bg-color);
+  background-image: var(--header-bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  background-image: var(--header-bg-image);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   padding: 10vh 1.4993vh;
 }
@@ -31,7 +32,6 @@
     justify-items: center;
     align-items: start;
     padding: 1.4vh 0 1vh;
-    height: 56.4vh;
   }
 }
 
@@ -52,7 +52,7 @@
 @media (min-width: 1024px) {
 
   .header__theme-menu {
-    padding-inline-start: 1vh;
+    margin-block-start: 5px;
   }
 }
 
@@ -131,8 +131,9 @@
 @media (width >= 1024px) {
 
   .header__subtitle {
-    width: 36vh;
-    margin-block-start: 6px;
+    width: 64vh;
+    margin-block-start: 3px;
+    margin-right: 20px;
   }
 }
 
@@ -260,9 +261,9 @@
 @media (width >= 1024px) {
 
   .main {
-    gap: 79px;
+    gap: 76px;
     padding-inline-start: 19px;
-    padding-inline-end: 0;
+    padding-inline-end: 20px;
   }
 }
 
@@ -337,7 +338,7 @@
 .main__section__content-article-item {
   display: flex;
   flex-direction: column;
-  row-gap: 14px;
+  row-gap: 15px;
 }
 
 .cards-section {
@@ -385,14 +386,6 @@
   align-items: center;
   height: 100vh;
   min-height: 668px;
-}
-
-@media (width >= 1024px) {
-
-  .footer {
-    height: 56vh;
-    padding-inline-start: 14px;
-  }
 }
 
 .footer__title {
