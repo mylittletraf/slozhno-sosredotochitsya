@@ -1,6 +1,9 @@
 :root {
+    --global-font: 'IBM Plex Mono';
+
+    --main-bg-color: #000028;
+
     --header-bg-image: url(../images/cover-image-dark.png);
-    --header-bg-color: #000028;
     --header-title-color: #DB00FF;
     --header-title-shadow-color: #FF0070;
     --header-menu-button-color: #FF0070;
@@ -12,7 +15,7 @@
     --decorated-zone-border-color: #FF0070;
     --indicator-text-color: #FF0070;
     --indicator-dot-bg-color: #FF0070;
-    --indicator-dot-shadow: 0 0 4px 2px #FF0070;
+    --indicator-dot-shadow-color: #FF0070;
 
     --main-section-title-color: #FF0070;
     --main-section-subtitle-bg-color: #FF0070;
