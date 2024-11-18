@@ -8,8 +8,8 @@
   --global-font: "IBM Plex Mono";
 
   --main-bg-color: #000028;
+  --main-bg-image: url(../images/cover-image-dark.png);
 
-  --header-bg-image: url(../images/cover-image-dark.png);
   --header-title-color: #db00ff;
   --header-title-shadow-color: #ff0070;
   --header-menu-button-color: #ff0070;
