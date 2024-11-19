@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 @media (prefers-color-scheme: light) {
 
   :root {
@@ -13,31 +7,27 @@
     --header-title-color: #ffc2e6;
     --header-title-shadow-color: #ff0070;
     --header-menu-button-color: #353430;
-    --header-menu-button-hover-color: rgba(50, 49, 45, 0.4);
+    --header-menu-button-hover-color: rgb(50 49 45 / 0.4);
     --header-menu-button-active-outline: #353430;
 
     --subtitle-bg-color: #ff8dcb;
     --subtitle-text-color: #353430;
 
     --decorated-zone-border-color: #353430;
-    --indicator-text-color: #ff0070;
-    --indicator-dot-bg-color: #ff0070;
-    --indicator-dot-shadow-color: #ff0070;
+    --indicator-text-color: #ffeef6;
+    --indicator-dot-bg-color: #ffeef6;
+    --indicator-dot-shadow-color: #ffeef6;
 
     --main-section-title-color: #353430;
     --main-section-subtitle-bg-color: #ff8dcb;
     --main-section-subtitle-text-color: #353430;
     --main-section-link-color: #353430;
-    --main-section-link-shadow-color: #ff0070;
+    --main-section-link-shadow-color: #ff8dcb;
     --main-section-link-outline-color: #353430;
     --main-article-item-color: #353430;
 
     --footer-title-color: #ffc2e6;
     --footer-title-shadow-color: #ff0070;
-  }
-
-  .header_decorated-indicator {
-    display: none;
   }
 }
 
@@ -48,29 +38,25 @@
   --header-title-color: #ffc2e6;
   --header-title-shadow-color: #ff0070;
   --header-menu-button-color: #353430;
-  --header-menu-button-hover-color: rgba(50, 49, 45, 0.4);
+  --header-menu-button-hover-color: rgb(50 49 45 / 0.4);
   --header-menu-button-active-outline: #353430;
 
   --subtitle-bg-color: #ff8dcb;
   --subtitle-text-color: #353430;
 
   --decorated-zone-border-color: #353430;
-  --indicator-text-color: #ff0070;
-  --indicator-dot-bg-color: #ff0070;
-  --indicator-dot-shadow-color: #ff0070;
+  --indicator-text-color: #ffeef6;
+  --indicator-dot-bg-color: #ffeef6;
+  --indicator-dot-shadow-color: #ffeef6;
 
   --main-section-title-color: #353430;
   --main-section-subtitle-bg-color: #ff8dcb;
   --main-section-subtitle-text-color: #353430;
   --main-section-link-color: #353430;
-  --main-section-link-shadow-color: #ff0070;
+  --main-section-link-shadow-color: #ff8dcb;
   --main-section-link-outline-color: #353430;
   --main-article-item-color: #353430;
 
   --footer-title-color: #ffc2e6;
   --footer-title-shadow-color: #ff0070;
-}
-
-.page.theme_light .header_decorated-indicator {
-  display: none;
 }
