@@ -23,6 +23,7 @@
     --main-section-subtitle-text-color: #353430;
     --main-section-link-color: #353430;
     --main-section-link-shadow-color: #ff8dcb;
+    --main-section-link-underline-color: #353430;
     --main-section-link-outline-color: #353430;
     --main-article-item-color: #353430;
 
@@ -54,6 +55,7 @@
   --main-section-subtitle-text-color: #353430;
   --main-section-link-color: #353430;
   --main-section-link-shadow-color: #ff8dcb;
+  --main-section-link-underline-color: #353430;
   --main-section-link-outline-color: #353430;
   --main-article-item-color: #353430;
 

@@ -342,7 +342,7 @@
 }
 
 .main__section__content-link:hover {
-  border-block-end: 1px solid var(--main-section-link-shadow-color);
+  border-block-end: 1px solid var(--main-section-link-underline-color);
   cursor: pointer;
 }
 
